@@ -1,0 +1,28 @@
+.app {
+  font-family: "Academy Engraved LET", sans-serif;
+  margin: 30px;
+  line-height: 50px;
+}
+
+.button {
+  position: relative;
+  margin: 30px;
+  right: 30px;
+  text-align: center;
+  color: black;
+}
+
+.btn-primary {
+  --bs-btn-bg: #eef2f6;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-color: #eef2f6;
+  --bs-btn-hover-border-color: #eef2f6;
+  --bs-btn-active-bg: #8a8181;
+  --bs-btn-active-border-color: #000;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #000;
+}
